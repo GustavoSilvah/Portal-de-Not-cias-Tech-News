@@ -1,0 +1,32 @@
+/* utility-class / utility-first */
+.grid {
+    display: grid;
+}
+
+.grid-flow-col {
+    grid-auto-flow: column;
+}
+
+.grid-cols-2 {
+    grid-template-columns: 1fr 1fr;
+}
+
+.gap-16 {
+    gap: 16px;
+}
+
+.text-2xl {
+    font: var(--text-heading-primary);
+}
+
+.text-xl {
+    font: var(--text-heading-secondary);
+}
+
+.text-lg {
+    font: var(--text-heading-tertiary);
+}
+
+.text-sm {
+    font: var(--text-sm);
+}
