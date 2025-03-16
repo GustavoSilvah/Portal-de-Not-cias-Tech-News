@@ -1,0 +1,38 @@
+#menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-block: 26px;
+}
+
+#menu-hamburguer {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+
+    color: var(--text-color-primary);
+}
+
+h1 {
+    font: var(--text-heading-primary);
+    color: var(--brand-color-light);
+}
+
+#search {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+nav {
+    border-block: 1px solid var(--stroke-color);
+    padding-block: 14px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+
+    list-style: none;
+}
